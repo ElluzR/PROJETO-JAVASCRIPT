@@ -8,7 +8,7 @@ fetch("https://api.github.com/users/elluzr/repos")
     var cont = 0;
     for (cont = 0; cont < data.length; cont++) {
       contenido.innerHTML += `
-			 <div class="card">
+       <div class="card">
 				<a href="${data[cont].html_url}" target="blank_"> ${data[cont].name} </a>
 			 </div>
 			 `;
